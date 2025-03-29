@@ -51,13 +51,15 @@ const ViewMenu = ({ }) => {
   return (
     <Button
       asChild
-      className="table-button z-50 flex aspect-square h-24 flex-col items-center justify-center rounded-full bg-[#A63F5A] px-0 py-0 text-center text-xs uppercase text-[#fff] hover:text-white hover:bg-[#A63F5A]"
+      className="relative table-button flex aspect-square h-14 md:h-24 flex-col items-center justify-center rounded-full bg-[#A63F5A] px-0 py-0 text-center text-xs uppercase text-[#fff] hover:text-white hover:bg-[#A63F5A] z-50"
     >
-      <Link href="/menu">
+      <Link href="/menu" className="relative">
         <Icons.dining color="#fff" />
+        <span className="hidden md:block text-center">
         Online 
         <br />
         Ordering
+        </span>
       </Link>
     </Button>
   );

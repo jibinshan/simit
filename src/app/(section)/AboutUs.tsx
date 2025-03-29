@@ -110,7 +110,7 @@ const AboutUs = ({ }) => {
                     backgroundRepeat: "no-repeat,no-repeat,no-repeat,no-repeat"
                 }}
             >
-                <div className="relative section-one w-full md:w-1/2 flex items-center justify-center p-6 mt-[200px]">
+                <div className="relative section-one w-full md:w-1/2 flex items-center justify-center p-6 md:mt-[200px]">
                 <div className="w-fit md:w-3/4 py-4 px-4 rounded-t-full bg-[#f1f1f1]">
                     <Image
                         src='/images/home/menu.png'

@@ -37,7 +37,7 @@ const Navbar = ({
     >
       <div className="flex h-full w-full items-center justify-between">
         <Link href="/" className="flex">
-          <Image src="/images/logo.png" width={140} height={120} alt="logo" className="w-24" />
+          <Image src="/images/logo.png" width={140} height={120} alt="logo" className="w-14 md:w-24" />
         </Link>
         {!isScrolled && (
           <div className="hidden w-full flex-row items-center justify-center gap-[3.48rem] md:flex">
@@ -100,7 +100,7 @@ const Navbar = ({
           </div>
         )
         }
-        <Link href="/table-booking">
+        <Link href="/table-booking" className="hidden md:block">
        <Button className="bg-white/30 backdrop-blur-md rounded-full text-lg px-6 py-6 text-white font-playfair flex items-center justify-center gap-1">
         <span>Book Table</span>
         <ArrowRight className="text-white"/>

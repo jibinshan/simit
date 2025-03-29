@@ -50,7 +50,7 @@ export default function HomePage() {
         <PrivateAndGroupDining />
          */}
       </div>
-      <div className="fixed bottom-2 right-2 flex md:bottom-[54px] md:right-[44px]">
+      <div className="fixed bottom-2 right-2 flex md:bottom-[54px] md:right-[44px] z-50">
           <ViewMenu />
       </div>
       {/* {isScrolled &&

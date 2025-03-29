@@ -78,7 +78,7 @@ const Hero = ({ }) => {
                     </Link>
                 </div>
             </div> */}
-                <div className="relative w-full z-50 flex md:h-[80vh] max-w-[1300px] items-center justify-center md:justify-center">
+                <div className="relative w-full z-40 flex md:h-[80vh] max-w-[1300px] items-center justify-center md:justify-center">
                     <div className="head-container flex w-full md:w-2/3 h-full  flex-col  justify-center items-center gap-7 px-3 md:px-0">
                         <h1 className="head-hero font-italiana text-5xl w-full text-[#76101E] sm:text-5xl md:text-8xl md:leading-[110px] text-center md:text-center text-background">
                             The Love <br />Language of <br />Turkish Hospitality
