@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 const ConnectWithUs = ({}) => {
-  return <section className="w-full h-fit flex flex-col py-12">
+  return <section className="w-full h-fit flex flex-col gap-8 py-12">
     <p className="w-full text-center font-playfair text-5xl font-[400] text-[#76101E] md:text-8xl">Connect With Us</p>
     <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-4 px-4 md:px-7">
        <div className="relative">
